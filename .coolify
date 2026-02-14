@@ -1,0 +1,14 @@
+# Coolify Configuration
+# This file tells Coolify how to deploy your application
+
+# Build Command (optional - Coolify auto-detects)
+BUILD_COMMAND="npm run build"
+
+# Start Command (optional - Coolify auto-detects)
+START_COMMAND="npm start"
+
+# Port
+PORT=3000
+
+# Health Check
+HEALTHCHECK_PATH=/
